@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+
+   <form action="./aplicacion/guardar.js" method="get">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre">
+    <br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido">
+    <br><br>
+    <label for="cedula">Cedula:</label>
+    <input type="text" id="cedula">
+    <br><br>
+    <h2>Rango de edad</h2>
+    <input type="radio" id="rango1" value="rango1" name="edad">
+    <label for="rango1">Entre 10 - 20 años</label>
+    <br>
+    <input type="radio" id="rango2" value="rango2" name="edad">
+    <label for="rango2">Entre 20 - 30 años</label>
+    <br>
+    <input type="radio" id="rango3" value="rango3" name="edad">
+    <label for="rango3">Entre 30 - 40 años</label>
+    <h2>tecnologia favorita</h2>
+    <input type="checkbox" id="check1" value="react" name="tecno">
+    <label for="rango1">Reactv</label>
+    <br>
+    <input type="checkbox" id="check2" value="angular" name="tecno">
+    <label for="rango2">Angular</label>
+    <br>
+    <input type="checkbox" id="check3" value="django" name="tecno">
+    <label for="rango3">django</label>
+    <br><br>
+    <button type="submit">Enviar...</button>
+    <button type="reset">Borrar...</button>
+   </form>  
+
+</body>
+</html>

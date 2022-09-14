@@ -1,0 +1,18 @@
+#parrafo__sub1{
+color: blueviolet;
+}
+.main__parrafo{
+ color:darkgreen;
+}
+a{
+ color:inherit;   
+}
+p{
+ color:blue !important;
+}
+#parrafo__sub1{
+    color: blueviolet;
+}
+.main__parrafo{
+     color:darkgreen;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://guardar.js" method="get">
+        <h2>Formulario</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+       
+        <br>
+        <label for="cel">Celular:</label>
+        <input type="number" id="cel">
+        <br>
+        <br>
+        <h3> Nivel escolar:</h3>
+        <input type="radio" id="escuela" name="nivel">
+        <label for="escuela">Escuela</label>
+
+        <input type="radio" id="colegio" name="nivel">
+        <label for="colegio">Colegio</label>
+
+        <input type="radio" id="universidad" name="nivel">
+        <label for="universidad">Universidad</label>
+        <br>
+        <h3> Mascota favorita:</h3>
+        
+        <input type="checkbox" id="perro">
+        <label for="perro">Perro</label>
+
+        <input type="checkbox" id="gato">
+        <label for="gato">Gato</label>
+
+        <input type="checkbox" id="pez">
+        <label for="pez">Pez</label>
+        <br>
+        <h3> Me gustaria aprender: </h3>
+        <select>
+            <option value="Django">Django</option>
+            <option value="Node.js">Node.js</option>
+            <option value="React">React</option>
+            <option value="Angular">Angular</option>
+        </select>
+        <br>
+        
+        <label for="color1">Seleccione un color:</label>
+        <input type="color" id="color1">
+
+        <br>
+        <label for="fecha">Seleccione una fecha:</label>
+        <input type="date" id="fecha">
+        <br>
+        <button type="submit"> Enviar...</button>
+        <button type="reset">Borrar formulario...</button>
+    </form>
+</body>
+</html>

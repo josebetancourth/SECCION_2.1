@@ -1,0 +1,35 @@
+body{
+background-color:chocolate;
+text-align: center;
+}
+
+form{
+background-color:cornsilk;
+height: 750px;
+width: 600px;
+margin: 0px auto;
+}
+td{
+    text-align: left;  
+}
+table{ 
+    position: relative;
+    left: 150px;
+}
+label{
+    color:brown;
+    font-size:25px;
+}
+.entratexto{
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+select{
+    color:brown;
+    font-size: 20px;
+}
+button{
+    color:brown;
+    font-size: 20px;
+}

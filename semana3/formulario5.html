@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+
+  <form action="./servidor/guardar.js" method="post"> 
+   
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre">
+    <br> <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido">
+    <br> <br>
+    <label for="cedula">Cedula:</label>
+    <input type="number" id="cedula">
+    <br> <br>
+    <h2>Seleccione su rango de edad</h2>
+    
+    <input type="radio" id="rango1" name="edad">
+    <label for="rango1">Entre 10 - 20 años</label>
+    <br>
+    <input type="radio" id="rango2" name="edad">
+    <label for="rango2">Entre 20 - 30 años</label>
+    <br>
+    <input type="radio" id="rango3" name="edad">
+    <label for="rango3">Entre 30 - 40 años</label>
+
+    <br> <br>
+    <h2>Seleccione su mascota favorita</h2>
+
+    <input type="checkbox" id="check1" name="pet">
+    <label for="check1">Perro</label>
+    <br>
+    <input type="checkbox" id="check2" name="pet">
+    <label for="check2">Gato</label>
+    <br>
+    <input type="checkbox" id="check3" name="pet">
+    <label for="check3">Mono</label>
+
+
+
+  </form> 
+    
+</body>
+</html>

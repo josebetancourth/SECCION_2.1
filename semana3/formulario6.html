@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Formulario</h2>
+
+    <form action="./servidor/aplicacion/guardar.js" method="get">
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre">
+       <br><br>
+       <label for="apellido">Apellido:</label>
+       <input type="text" id="apellido">
+       <br><br>
+       <label for="ced">Cedula:</label>
+       <input type="number" id="ced">
+       <br><br>
+       <h2> Seleccione rango de edad</h2>
+       <input type="radio" id="rango1" name="edad" value="rango1">
+       <label for="rango1">Entre 10 - 20 años</label>
+       <br>
+       <input type="radio" id="rango2" name="edad" value="rango2">
+       <label for="rango2">Entre 20 - 30 años</label>
+       <br>
+       <input type="radio" id="rango3" name="edad" value="rango3">
+       <label for="rango3">Entre 30 - 40 años</label>
+       <br> <br>
+       <h2> Seleccione su mascota favorita</h2>
+        <input type="checkbox" id="perro" name="pet" value="perro">
+        <label for="perro">Perro</label>
+        <br>
+        <input type="checkbox" id="gato" name="pet" value="gato">
+        <label for="gato">Gato</label>
+        <br>
+        <input type="checkbox" id="mono" name="pet" value="mono">
+        <label for="mono">Mono</label>
+        <h2>Seleccione su favorita... </h2>
+        <select id="tecno">
+            <option value="django">Django</option>
+            <option value="react">React</option>
+            <option value="vue">Vue </option>
+            <option value="boostrap">Boostrap</option>
+        </select>
+      <br><br><button type="submit">Enviar...</button>
+      <button type="reset">Borrar...</button>
+    </form>
+</body>
+</html>

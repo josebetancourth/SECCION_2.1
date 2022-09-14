@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+ 
+ <form action="http://aplicacion/guardar.js" method="post">
+  
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre">
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido">
+    <br>
+
+    <label for="cedula">Cedula:</label>
+    <input type="number" id="cedula">
+
+    <h2> rango de edad</h2>
+
+    <input type="radio" id="rango1" name="edad" value="rango1">
+    <label for="rango1">10 - 20 años</label>
+    <br>
+    <input type="radio" id="rango2" name="edad" value="rango2">
+    <label for="rango2">20 - 30 años</label>
+    <br>
+    <input type="radio" id="rango3" name="edad" value="rango3">
+    <label for="rango3">30 - 40 años</label>
+
+    <h2> Mascota favorita</h2>
+
+    <input type="checkbox" id="perro" name="mascota" value="perro">
+    <label for="perro">Perro</label>
+    <br>
+    <input type="checkbox" id="gato" name="mascota" value="gato">
+    <label for="gato">Gato</label>
+    <br>
+    <input type="checkbox" id="pez" name="mascota" value="pez">
+    <label for="pez">Pez</label>
+   
+    <h2>Me gustaria aprender...</h2>
+    <select><!--listas desplagables-->
+        <option value="lavarel">Laravel</option>
+        <option value="Django">Django</option>
+        <option value="Node.js">Node.js</option>
+        <option value="Java">Java</option>
+    </select>
+    <br>
+    <button type="submit">Enviar...</button>
+    <button type="reset">Borrar...</button>
+
+ </form>
+
+     
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+#title__main {
+color: aqua;
+}
+
+.main__sub1{
+ color: red;   
+}
+
+p{color: blue;}
+
+[href="#1"]{
+ color: aquamarine;   
+}
+
+[class*="sub1"]{
+  color: aquamarine;  
+}
+
+
+
+

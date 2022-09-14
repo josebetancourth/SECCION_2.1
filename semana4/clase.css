@@ -1,0 +1,16 @@
+    .main{
+    background-color:coral;
+    width: 600px;
+    height: 300px auto;   
+   }
+   
+   .main__titulo{
+   color:crimson;
+   font-style: italic;
+   }
+   
+   .main__parrafo{
+   font-size: large;
+   color: cornflowerblue; 
+   font-family: 'Courier New', Courier, monospace;    
+   }

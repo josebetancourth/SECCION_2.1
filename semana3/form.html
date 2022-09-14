@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scakkle=1.0">
+    <link href="form.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+   <script src="cambiar.js">
+   </script> 
+</head>
+<body>
+   <form action="#" method="get">
+    <h2>Formulario</h2>
+    <table>
+        <tr> 
+            <td><!--Nombre:-->
+                <label for="nombre">Nombre completo:</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td><!--entrada nombre-->
+                <input type="text" id="nombre"  class="entratexto">
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--celular:-->
+                <label for="cel">Celular:</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--entrada celular-->
+                <input type="number" id="cel" class="entratexto"> 
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--Direccion:-->
+                <label for="dir">Direccion:</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--entrada direccion-->
+                <input type="text" id="dir" class="entratexto">
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <label>Nivel escolar:</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--radio nivel escolar-->
+                <input type="radio" id="escu" name="nivel" value="escuela"> 
+                <label for="escu">Escuela</label>    
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <input type="radio" id="col" name="nivel" value="colegio">
+                <label for="col">Colegio</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <input type="radio" id="uni" name="nivel" value="universidad">
+                <label for="uni">Universidad</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <label>Que tecnologias conoces:</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> <!--checkbox tecnologias -->
+                <input type="checkbox" id="htm" value="HTML"> 
+                <label for="htm">HTML</label>    
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <input type="checkbox" id="cs" value="CSS">
+                <label for="cs">CSS</label> 
+            </td>
+        </tr>
+        <tr> 
+            <td> 
+                <input type="checkbox" id="jav" value="JAVASCRIPT">
+                <label for="jav">JAVASCRIPT</label> 
+            </td>
+        </tr><!-- -->
+        <tr> 
+            <td> <!--select aprender -->
+                <label for="apre">Quiero aprender...</label> 
+                <select id="apre" name="aprender">
+                    <option value="Django">Django</option>
+                    <option value="React">React</option>
+                    <option value="Angular">Angular</option>
+                    <option value="VUE">Vue</option>
+                    <option value="NODE">Node.js</option>
+                    <option value="JAVA">Java</option>
+                    <option value="Python">Python</option>
+                  </select>               
+            </td>
+        </tr>
+        <tr>
+            <td><br><button type="submit">Enviar...</button>
+                    <button type="reset">Borrar...</button>
+                    <input type="button" onclick="verborde()" value="ver bordes">
+                    <input type="button" onclick="noverborde()" value="no ver bordes">
+            </td>
+        </tr>
+    </table>
+   </form> 
+</body>
+</html>

@@ -1,0 +1,17 @@
+#main1{
+ background-color: aqua;
+ width: 600px;
+ height: 300px auto;   
+}
+
+#title__main{
+color: blue;
+font-style: italic;
+}
+
+#parrafo__main{
+font-size: large; 
+color: blueviolet;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
