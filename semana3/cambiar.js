@@ -1,40 +1,25 @@
-function verborde(){
     const tabla=document.getElementsByTagName("table");
-    const sep=document.getElementsByTagName("tr");
-    const oct=document.getElementsByTagName("td");
-    let tds;
-    let nov;
-    const tab=tabla.item(0);
-        tab.style.border="2px solid blue";
-    for(let i=0;i<sep.length;i++)
-    {
-      tds=sep.item(i);
-      tds.style.border="2px solid blue";
+    const fila=document.getElementsByTagName("tr");
+    const celda=document.getElementsByTagName("td");
+
+function verborde(){
+    tabla.item(0).style.border="2px solid blue";
+
+    for(let i=0;i<fila.length;i++)
+     fila.item(i).style.border="2px solid blue";
+    
+    for(let i=0;i<celda.length;i++)
+     celda.item(i).style.border="2px solid blue";   
     }
-    for(let i=0;i<oct.length;i++)
-    {
-        nov=oct.item(i);
-        nov.style.border="2px solid blue";
-    }
-    }
-    function noverborde(){
-        const tabla=document.getElementsByTagName("table");
-        const sep=document.getElementsByTagName("tr");
-        const oct=document.getElementsByTagName("td");
-        let tds=null;
-        let nov=null;
-        const tab=tabla.item(0);
-            tab.style.border="2px solid cornsilk";
-        for(let i=0;i<sep.length;i++)
-        {
-          tds=sep.item(i);
-          tds.style.border="2px solid cornsilk";
-        }
-        for(let i=0;i<oct.length;i++)
-        {
-            nov=oct.item(i);
-            nov.style.border="2px solid cornsilk";
-        }
+
+function noverborde(){
+     tabla.item(0).style.border="5px";
+    
+     for(let i=0;i<fila.length;i++)
+          fila.item(i).style.border="0px";
         
-       
-        }
+    for(let i=0;i<celda.length;i++)
+        celda.item(i).style.border="0px";
+    }
+
+    
