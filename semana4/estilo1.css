@@ -1,10 +1,12 @@
-
-.main__sub1--textogrande{
-font-size: x-large;
+[class^="box"]{
+    width: 100px;
+    height: 100px;
 }
 
-.main__sub1--textomediano{
-font-size: medium;
+.box1{
+background-color: lime;
+position: relative;
+top: 50px;
+left: 50px;
 }
 
- 

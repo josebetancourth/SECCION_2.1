@@ -1,22 +1,15 @@
 
-#title__main {
-color: aqua;
+#parrafo__main{
+  color:blue;
 }
 
-.main__sub1{
- color: red;   
+.main__parrafo{
+  color: red;
 }
 
-p{color: blue;}
-
-[href="#1"]{
- color: aquamarine;   
+p{
+color: chartreuse !important;
 }
-
-[class*="sub1"]{
-  color: aquamarine;  
-}
-
 
 
 
