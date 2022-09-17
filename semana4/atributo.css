@@ -1,0 +1,20 @@
+/*selector atributo*/
+[href]{
+color:forestgreen;    
+}
+/*atributo valor especifico(=)*/
+[href="#2"]{
+color:yellow;
+}
+/*atributo valor inicial(^)*/
+[id^="parrafo"]{
+color:brown;    
+}
+/*atributo valor final($)*/
+[class$="textom"]{
+color:blueviolet;    
+}
+/*atributo valor en cualquier posicion*/
+[class*="sub1"]{
+color:blue;  
+}
