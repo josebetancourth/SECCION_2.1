@@ -1,0 +1,24 @@
+/*selectores combinados
+hermano adyacente*/
+h2 + h4{
+color:lime;
+}
+/*hermano general*/
+h2 ~ p{
+color:red;    
+}
+/*descendente padre hijo*/
+div h2{
+color:blueviolet;    
+}
+/*hijo directo*/
+div > a{
+color:darkorange;
+}
+/*herencia*/
+a{
+ color:inherit;   
+}
+
+
+
