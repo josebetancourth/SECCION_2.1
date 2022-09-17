@@ -1,22 +1,21 @@
-/*SELECTOR HERMANO ADYACENTE (+)*/
-
-/*
-cascada
-especificidad
-*/
-
-
-p{
-color:darkslateblue;
-}
-
-a{
-  color: inherit;  
-}
-
-p{
+/*selector etiqueta*/
+p{ 
 color:lime;
 }
-
-
-
+h4{
+color:blue;
+}
+/*selector clase*/
+.main__sub1--textom{
+color:crimson;
+}
+.main__parrafo{
+color:purple;
+}
+/*selector id*/
+#title__main{
+color:gold;    
+}
+#main__sub0{
+color:darkslategray;    
+}
