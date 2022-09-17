@@ -1,12 +1,22 @@
-[class^="box"]{
-    width: 100px;
-    height: 100px;
+/*SELECTOR HERMANO ADYACENTE (+)*/
+
+/*
+cascada
+especificidad
+*/
+
+
+p{
+color:darkslateblue;
 }
 
-.box1{
-background-color: lime;
-position: relative;
-top: 50px;
-left: 50px;
+a{
+  color: inherit;  
 }
+
+p{
+color:lime;
+}
+
+
 

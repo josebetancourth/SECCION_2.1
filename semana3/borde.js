@@ -5,7 +5,7 @@ const celda=document.getElementsByTagName("td");
 function borde(tipo){
 tabla.item(0).style.border=tipo;
 
-for(i in fila)//se debe cambiar por for of...
+for(let i in fila)//se debe cambiar por for of...
  {//recorre cada elemento fila y asigna propiedad
   fila.item(i).style.border=tipo;
   celda.item(i).style.border=tipo;                            
