@@ -1,0 +1,22 @@
+/*selector atributo*/
+[href]{
+color:red;    
+}
+/*valor indicado (=)*/
+[href="#4"]{
+color:greenyellow;    
+}
+/*inicie con un valor*/
+[class^="titulo"]{
+color: rebeccapurple;    
+}
+/*termina con un valor*/
+[class$="parrafo"]{
+color:darkviolet;
+font-style: italic;
+}
+/*valor en cualquier parte*/
+[class*="sub1"]{
+font-size: 20px;
+color: navy;    
+}

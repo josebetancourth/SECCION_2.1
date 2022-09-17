@@ -1,0 +1,23 @@
+/*selector etiqueta*/
+p{
+color:blue;
+font-size: 20px;   
+}
+h3{
+color:green;    
+}
+/*selector de clase*/
+.main__parrafo{
+color:chartreuse;    
+}
+.main__titulo{
+color:red;
+font-family:'Courier New', Courier, monospace; 
+}
+/*selector de id*/
+#main1{
+background-color: aqua;    
+}
+#main__sub0{
+color:yellow;    
+}

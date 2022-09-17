@@ -1,0 +1,24 @@
+/*hermano adyacente*/
+p + h3{
+color:lime;    
+}
+
+/*descendiente padre - hijo*/
+div p{
+    color:silver;   
+   } 
+
+/*hermano general*/
+h4 ~ p{
+color:greenyellow;
+}
+
+/*hijo directo*/
+div > a{
+color:orange;
+}
+
+/*herencia*/
+a{
+  color:inherit;  
+}
