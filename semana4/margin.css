@@ -1,0 +1,22 @@
+[class^=Box]{
+/*ancho*/
+width:100px;
+/*alto*/
+height:100px;
+}
+
+.Box1{
+background-color: lime;
+/*margin: 20px; todos los lados
+  margin: 20px 30px; top-Bottom right-left
+  margin: 10px 20px 30px; top left-right bottom
+  margin: 10px 20px 30px 40px; top right bottom left*/ 
+margin: 20px;
+padding: 50px;
+}
+
+.Box2{
+background-color: tomato;
+margin: 200px;
+padding: 0px;    
+}

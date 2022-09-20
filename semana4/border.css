@@ -1,0 +1,28 @@
+[id^="B"]{
+ width: 100px;
+ height: 100px;  
+ background-color: aquamarine; 
+ margin: 50px; 
+}
+
+#BOX1{
+ border: 3px dotted blue;   
+}
+
+#BOX2{
+border-left-width: 3px;
+border-left-style: dashed;
+border-left-color: blueviolet; 
+border-right-width: 3px;
+border-right-style: dashed;
+border-right-color: blueviolet;      
+}
+#BOX3{
+    border-top-width: 3px;
+    border-top-style:double;
+    border-top-color:brown; 
+    border-bottom-width: 3px;
+    border-bottom-style: double;
+    border-bottom-color: brown;      
+    }
+    

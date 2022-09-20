@@ -1,0 +1,20 @@
+.padre {
+    border: 3px black dotted;
+    display: inline-block;
+   }
+   .box {
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+   }
+   #dos {
+    /*top y left cambian
+      segun su contenedor
+      y position*/
+      left: 30px;
+      top: 30px;
+      background: green;
+      position: static;
+     /*por defecto es static*/
+   }
