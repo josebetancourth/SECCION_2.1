@@ -1,28 +1,29 @@
-[id^="B"]{
+[class^="B"]{
  width: 100px;
  height: 100px;  
- background-color: aquamarine; 
- margin: 50px; 
+ margin: 20px;
+ background-color: aquamarine;
 }
 
-#BOX1{
- border: 3px dotted blue;   
+.BOX1{
+ border: 3px dotted blue;
+ border-radius:  15%;;
 }
 
-#BOX2{
-border-left-width: 3px;
-border-left-style: dashed;
+.BOX2{
+border-left-width: 6px;
+border-left-style:dashed;
 border-left-color: blueviolet; 
-border-right-width: 3px;
-border-right-style: dashed;
-border-right-color: blueviolet;      
+border-right-width: 10px;
+border-right-style: groove;
+border-right-color: blue;      
 }
-#BOX3{
-    border-top-width: 3px;
+.BOX3{
+    border-top-width: 8px;
     border-top-style:double;
     border-top-color:brown; 
-    border-bottom-width: 3px;
-    border-bottom-style: double;
-    border-bottom-color: brown;      
+    border-bottom-width: 7px;
+    border-bottom-style:ridge;
+    border-bottom-color:lime;      
     }
     

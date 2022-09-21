@@ -1,14 +1,14 @@
-.padre {
+  .padre{
     border: 3px black dotted;
     display: inline-block;
    }
-   .box {
+   .box{
     display: inline-block;
     background: red;
     width: 100px;
     height: 100px;
    }
-   #dos {
+   #dos{
     /*top y left cambian
       segun su contenedor
       y position*/
