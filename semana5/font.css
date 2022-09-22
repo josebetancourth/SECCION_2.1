@@ -1,0 +1,23 @@
+/*fuentes*/
+.trebu{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.time{font-family: 'Times New Roman', Times, serif;}
+.fantasy{font-family: fantasy;}
+.cursi{font-family: cursive;}
+/*colores*/
+.azul{color:blue;}
+.verde{color:green}
+.amarillo{color:yellow}
+/*fondos*/
+.fondo_azul{background-color: aqua;}
+.fondo_verde{background-color:greenyellow;}
+/*tamaño de fuente*/
+.diez{font-size: 10px;}
+.quince{font-size: 15px;}
+.veinte{font-size: 20px;}
+.cinco{font-size: 5px;}
+.treinta{font-size: 30px;}
+/*resaltado*/
+.negrita{font-weight: bold;}
+/*alineado*/
+.centrado{text-align: center;}
+.justificado{text-align: justify;}

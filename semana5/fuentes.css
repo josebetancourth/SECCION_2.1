@@ -1,0 +1,61 @@
+/*tipo de fuente*/
+.time{font-family: 'Times New Roman', Times, serif;}
+.fantasy{font-family: fantasy;}
+.cursi{font-family: cursive;}
+/*color texto*/
+.azul{color:blue}
+.rojo{color:red}
+.verde{color:green}
+.amarillo{color:yellow}
+/*fondo*/
+.fverde{background-color: green;}
+.fazul{background-color: aqua;}
+.famarillo{background-color: yellow;}
+/*alineacion*/
+.centrado{text-align: center;}
+.derecha{text-align: right;}
+.justificado{text-align: justify;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1,h2{
+font-family:'Courier New', Courier, monospace;
+color:brown;
+background-color: aqua;
+font-weight:bolder;
+font-style:italic;
+text-align: center;
+}
+
+p{
+font-family: fantasy;
+color:brown;   
+text-transform: lowercase;
+line-height: 25px;
+}*/
+
+
