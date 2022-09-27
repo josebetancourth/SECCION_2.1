@@ -1,11 +1,15 @@
 
 .box1{
 background-color: blue;
-width: 100px;
 height: 100px;
+width:100%;
 border:5px solid black;
 /*posicion*/
 position:fixed;
-left:50px;
-bottom:1px;
+right:20px;
+:1px;
+}
+
+body{
+    font-size: large;
 }

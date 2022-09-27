@@ -1,0 +1,18 @@
+h1,h2{
+font-family: fantasy;/*tipo de fuente*/
+color: crimson;/*color de fuente*/
+background-color: burlywood;/*fondo de elemento*/
+font-style: italic;/*cursiva*/
+text-align: center;/*alineado*/
+}
+
+p{
+ font-size: 16px;  /*tamaño de fuente*/ 
+ color: green; 
+ background-color:burlywood;  
+ font-family:'Courier New', Courier, monospace;
+ line-height: 25px; /*interlienado*/
+ text-transform: uppercase; /*convertir texto*/
+ text-align: justify; 
+}
+

@@ -8,13 +8,20 @@
     width: 100px;
     height: 100px;
    }
+   #apuntes{
+    left:30px;/* mueva a derecha*/
+    top: 30px;/*mueva abajo*/
+    right: 30px;/*mueva izquierda*/
+    bottom: 50px;/*mueva arriba*/
+   }
+
    #dos{
     /*top y left cambian
       segun su contenedor
       y position*/
-      left: 30px;
-      top: 30px;
+      left:50px;
+      top:50px;
       background: green;
-      position: static;
+      position: absolute;
      /*por defecto es static*/
    }

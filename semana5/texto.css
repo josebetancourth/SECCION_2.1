@@ -1,0 +1,15 @@
+h1,h2{
+font-family: 'Courier New', Courier, monospace;
+color:blueviolet;
+background-color:aqua;
+text-align: center;
+}
+
+p{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+ color:blue;
+ background-color: aqua;
+ font-size: 20px;
+ line-height: 30px;
+ 
+}

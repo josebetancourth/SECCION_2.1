@@ -1,0 +1,18 @@
+h1,h2{
+font-family:fantasy;
+color:blueviolet;
+background-color: aqua;
+font-style:italic;
+font-weight: bold;
+text-align: center;
+}
+
+p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+color:blue; 
+background-color: aqua; 
+font-size: 15px;
+line-height: 30px;
+text-transform: lowercase;
+text-align: justify;
+}

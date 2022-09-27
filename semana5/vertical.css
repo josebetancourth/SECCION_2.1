@@ -1,0 +1,31 @@
+td,tr{
+border:3px solid black;
+height: 200px;
+width: 400px;
+font-size: 25px;
+text-align: center;
+background-color: aqua;
+}
+
+body{
+background-image:url("patron-2.jpeg");
+
+}
+
+td:hover{/*pseudo clases - eventos*/
+background-color: gold;
+color: aqua;
+}
+
+.arriba{vertical-align: top;}
+.medio{vertical-align: middle;}
+.abajo{vertical-align: bottom;}
+.baseline{vertical-align: baseline;}
+.sub{vertical-align:sub;}
+.super{vertical-align: super;}
+.rojo{color:red}
+.over{text-decoration: overline;}
+.under{text-decoration: underline;}
+.tacha{text-decoration: line-through;}
+.shadow{text-shadow: 10px 10px 10px black;}
+.treinta{font-size: 30px;}

@@ -1,0 +1,30 @@
+tr, td{
+height: 200px;
+border: 2px solid black;
+background-color: aqua;
+font-size: 20px;
+transition: background-color 2s;
+}
+
+td:hover{
+background-color:gold; 
+text-align: center; 
+}
+
+.arriba{vertical-align: top;}
+.medio{vertical-align: middle;}
+.abajo{vertical-align: bottom;}
+.baseline{vertical-align: baseline;}
+.super{vertical-align: super;}
+.sub{vertical-align: sub;}
+.pix{vertical-align: -20px;}
+.rojo{color: red;}
+.center{text-align: center;}
+.shadow{
+    text-shadow:5px 5px 10px blue;
+    font-size: xx-large; 
+}
+body{
+background-image: url("amplia.jpeg"); 
+background-repeat:no-repeat;   
+}

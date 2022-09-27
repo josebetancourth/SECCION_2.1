@@ -1,0 +1,16 @@
+/*color de texto*/
+.azul{color: blue;}
+.rojo{color: red;}
+.amarillo{color: yellow}
+/*tamaño de texto*/
+.diez{font-size: 10px;}
+.quince{font-size: 15px;}
+.veinte{font-size: 20px;}
+.treinta{font-size: 30px;}
+/*tipo de fuente*/
+.fantasia{font-family: fantasy;}
+.cursi{font-family: cursive;}
+.arial{font-family: Arial, Helvetica, sans-serif;}
+/*alineado*/
+.derecha{text-align: right;}
+.centro{text-align: center;}

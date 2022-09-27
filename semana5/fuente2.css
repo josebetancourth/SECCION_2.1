@@ -1,0 +1,13 @@
+.imagen{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition:
+}
+
+.padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;   
+}

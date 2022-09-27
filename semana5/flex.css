@@ -1,0 +1,15 @@
+.padre{
+ display: flex;
+ flex-direction:row;
+ justify-content: center;
+ background-color: aqua;
+ width: 80%;
+ height: 500px;   
+}
+
+.hijo{
+width: 100px;
+height: 100px;
+background-color: gold;
+margin: 50px auto;
+}

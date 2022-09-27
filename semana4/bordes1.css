@@ -1,0 +1,29 @@
+[class^="box"]{
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;  
+}
+
+.box-1{
+ /*shorthand borde*/
+ border:10px    solid        blue ;
+    /*ancho*/   /*estilo*/   /*color*/ 
+}
+
+.box-2{
+    border-left-color:blue;
+    border-left-style: dotted;
+    border-left-width: 10px;
+   
+    border-right-color: brown;
+    border-right-style: solid;
+    border-right-width: 7px;
+   
+    border-top-color: green;
+    border-top-style: double;
+    border-top-width:15px ;
+   
+    border-bottom-color:black;
+    border-bottom-style: dashed;
+    border-bottom-width: 25px ;
+}

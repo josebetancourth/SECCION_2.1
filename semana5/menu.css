@@ -1,0 +1,33 @@
+ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;  
+}
+ul li {
+    position:relative;
+  }
+
+li{
+    display: inline-block;
+}
+
+a{
+    background-color: salmon;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;  
+}
+
+a:hover{
+background-color:sienna;
+}
+
+ul li:hover > ul {
+    display:block;
+  }
+
+ul ul li {
+    margin-top:15px;   
+ }

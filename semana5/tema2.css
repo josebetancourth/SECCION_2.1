@@ -1,0 +1,20 @@
+/*tamaño fuente*/
+.diez{font-size: 10px;}
+.quince{font-size: 15px;}
+.veinte{font-size: 20px;}
+.veinte5{font-size: 25px;}
+.treinta{font-size: 30px;}
+/*color fuente*/
+.azul{color: blue;}
+.rojo{color: red;}
+.verde{color: green;}
+.amarillo{color: yellow;}
+/*tipo de fuente*/
+.fantasia{font-family: fantasy;}
+.cursi{font-family: cursiva;}
+.arial{font-family: Arial, Helvetica, sans-serif;}
+.unico{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+/*interlineado*/
+.amplio{line-height: 35px;}
+.small{line-height: 15px;}
+.normal{line-height: 1;}
