@@ -1,0 +1,11 @@
+li,a{
+   background-color: salmon;
+   display: inline-block;
+   vertical-align: middle;
+   padding: 10px 20px;
+   text-decoration: none;
+}
+
+li:hover{
+background-color: sienna;
+}
