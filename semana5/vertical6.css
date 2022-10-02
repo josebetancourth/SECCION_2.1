@@ -1,0 +1,28 @@
+td{
+   width: 400px;
+   height: 1000px;
+   background-color: aquamarine;
+   border: 3px solid black ;
+   font-size: 30px;
+   text-align: center;
+}
+
+.arriba{vertical-align: top;}
+.medio{vertical-align: middle;}
+.abajo{vertical-align: bottom;}
+.base{vertical-align: baseline;}
+.super{vertical-align: super;}
+.sub{vertical-align: sub;}
+.rojo{color:red}
+.under{text-decoration: underline;}
+.over{text-decoration: overline;}
+.tacha{text-decoration: line-through;}
+.treinta{font-size: 30px;}
+a{text-decoration: none;}
+.shadow{text-shadow: 10px 10px 7px blue;
+text-align: center;}
+
+body{
+background-image: url("patron-2.jpeg");
+background-attachment: fixed;
+}

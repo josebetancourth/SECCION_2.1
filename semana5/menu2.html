@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu2.css">
+    <link rel="stylesheet" href="menu8.css">
     <title>Document</title>
 </head>
 <body>
-   <nav>
-        <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">NOSOTROS</a></li>
-            <li><a href="#">CONTACTO</a></li>
-            <li><a href="#">SERVICIOS</a></li>
-        </ul>
+   <nav><!-- nav tiene valor semantico-->
+        <ul><!--lista no ordenada-->
+            <li><a href="#">INICIO</a>
+                <ul class="submenu">
+                    <li><a href="#">PERSONAL</a></li>
+                    <li><a href="#">INTERNET</a></li>
+                    <li><a href="#">DOMICILIO</a></li>  
+                    <li><a href="#">PERSONAL</a></li>
+                    <li><a href="#">INTERNET</a></li>
+                    <li><a href="#">DOMICILIO</a></li>   
+                   </ul>
+            </li><!--elemento de lista-->
+            <li><a href="#">NOSOTROS</a><!--enlace--></li>        
+            <li><a href="#">CONTACTO</a>
+               <ul class="submenu">
+                <li><a href="#">PERSONAL</a></li>
+                <li><a href="#">INTERNET</a></li>
+                <li><a href="#">DOMICILIO</a></li>    
+               </ul>
+            </li>
+            <li><a href="#">SERVICIOS</a></li> 
+        </ul>              
     </nav> 
 </body>
 </html>

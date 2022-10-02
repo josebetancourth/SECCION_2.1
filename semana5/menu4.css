@@ -1,0 +1,29 @@
+ul{  /*revisar comentarios en el archivo menu5.css*/
+list-style-type: none;
+padding:0;
+}
+li{
+   float:left; 
+   width: 100px;
+   height: 25px;
+   background-color: cadetblue;
+   text-align: center;
+   padding-top: 12px;
+   border-left: 2px solid black;
+   border-bottom:2px solid black;
+}
+
+a{text-decoration: none;}
+
+li:hover{ background-color: bisque;}
+
+.nivel2{ padding-top:9px}
+
+.nivel2 li{
+    border-left: 0;
+    display: none;
+}
+
+li:hover ul.nivel2 li{
+    display:block;
+}

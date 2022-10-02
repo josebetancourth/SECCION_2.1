@@ -1,0 +1,35 @@
+/*limpiar estilos por defecto*/
+ul{
+   list-style-type: none;
+   padding: 0; 
+}
+a{text-decoration: none;}
+
+li{
+float:left;/* display:inline-block*/
+width:140px;
+height: 40px;
+background-color: cadetblue;
+text-align: center;
+padding-top:20px;
+border-left: 2px solid black;
+border-bottom: 2px solid black;
+}
+
+li:hover{
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.submenu{
+padding-top: 23px; 
+}
+
+.submenu li{
+width: 138px;
+display:none;
+}
+
+li:hover .submenu li{ 
+display:block;
+}

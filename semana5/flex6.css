@@ -1,0 +1,21 @@
+.flex{
+width: 80%;
+height:500px;
+background-color: aqua;
+border: 3px solid black;
+display:flex;
+flex-direction: row;
+justify-content:flex-start;
+align-items:flex-end;
+}
+
+
+.hijos{
+    width: 150px;
+    height:100px;
+    background-color:crimson;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 40;
+    color: blue;
+}

@@ -1,0 +1,18 @@
+
+
+.imagen{
+border:3px solid black 
+width:200px;   
+}
+p{width:300px;
+    height: 160px;
+    font-size: 20px;
+    text-align: left;
+}
+.flex{
+    width: 80%;
+    height:500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }

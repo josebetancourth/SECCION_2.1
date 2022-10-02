@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;/*quita punto de lista*/
+    padding: 0;/*quita margen interno elementos de lista*/
+}
+
+li{
+    background-color:cadetblue;
+    width: 120px;
+    height: 25px;
+    float:left;/*muestra los elementos en fila*/
+    text-align: center;
+    padding-top: 10px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+a{text-decoration: none;}/*elimina la linea de los enlaces*/
+
+li:hover{background-color: bisque;}/*cambia de color cuando pasa por el menu*/
+
+.nivel2{
+    padding-top: 9px; /*alinea menu desplegable nivel 2 con el horizontal*/
+}
+.nivel2 li{  
+border-left: 0; /*quita borde izq del menu desplegable*/
+display:none; /*oculta menu desplegable*/
+}
+li:hover .nivel2 li{display:block}
+/*cuando pasa el cursor por un elemento del menu
+ muestra el menu desplegable*/

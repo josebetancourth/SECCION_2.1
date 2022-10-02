@@ -1,0 +1,18 @@
+.flex{
+ width: 80%;
+ height:400px;
+background-color: aquamarine;
+border: 2px dotted black;
+display: flex;
+justify-content:space-between;
+align-items: stretch;
+}
+
+
+.hijos{
+    width: 150px;
+    /*height: 60px;*/
+   background-color:chocolate;
+   border: 2px solid black;
+
+}

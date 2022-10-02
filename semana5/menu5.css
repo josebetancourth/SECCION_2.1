@@ -1,0 +1,31 @@
+ul{
+   list-style-type: none;/*quita puntos de la lista*/
+   padding: 0; 
+}
+
+li{
+ float:left;/*poner los elementos en fila*/
+ width: 150px;
+ height: 30px;
+ background-color: cadetblue;
+ text-align: center;
+ border-left:2px solid black;
+ border-bottom:2px solid black ;
+ padding-top:15px;
+}
+a{text-decoration: none;}
+
+li:hover{/*hover detecta cuando pasa el cursos encima*/
+    background-color: bisque;
+}
+
+.nivel2{padding-top:14px;}
+
+.nivel2 li{
+border-left: 0;
+display:none;/*oculta elementos*/
+}
+
+li:hover .nivel2 li{
+display:block;
+}
