@@ -1,0 +1,34 @@
+body{
+display:flex;
+justify-content: center;
+background-color: RGBA(0,0,0,0.75);
+}
+
+.padre{
+width:80%;
+height:500px;
+background-color: white;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.hijo{
+width:200px;
+height: 100px;
+margin: 20px;
+background-color: green;
+font-size: 40px;
+box-shadow: 5px 5px 5px black;
+/*flex-grow: 1;puede ser 1 o 0
+flex-shrink: 1;*/
+/*flex: 1 0 auto;version resumida*/
+}
+
+.borde{border:2px solid blue}
+
+.abajo{align-self: flex-end;}
+.medio{align-self: center;}
+.stretch{height:auto; 
+        align-self: stretch;
+ }

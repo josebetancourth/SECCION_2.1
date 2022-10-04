@@ -1,0 +1,23 @@
+body{
+display:flex;
+justify-content: center;
+background-color: RGBA(0,0,0,0.75);
+
+}
+.padre{
+ background-color: white;
+ width:80%;
+ height: 500px;
+ display: flex;   
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.hijo{
+background-color: green;  
+font-size: 40px;
+width: 200px;
+height: 100px;
+margin: 20px; 
+box-shadow: 5px 5px 5px black;
+}
+.abajo{align-self: flex-end;}

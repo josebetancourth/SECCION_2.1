@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newhtm.css">
+    <title>Document</title>
+</head>
+<body>
+    <details>
+        <summary>Más información</summary>
+        <h2>Nombre del sujeto</h2>
+        <img src="foto.jpg" alt="Foto del sujeto" />
+      </details>
+
+      <dialog id="ms">
+        <p>¡Hola, soy un mensaje!</p>
+        <button id="close" onclick="document.getElementById('ms').close()">Ok!</button>
+      </dialog>
+      <button id="show" onclick="document.getElementById('ms').showModal()">Mostrar</button>
+</body>
+</html>

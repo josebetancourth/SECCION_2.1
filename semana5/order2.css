@@ -1,0 +1,27 @@
+body{
+display: flex;
+justify-content: center;  
+background-color: rgba(0,0,0,0.75);  
+}
+
+.padre{
+width: 80%;
+height: 700px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+}
+.imagen{
+ width: 250px;
+ height: 300px; 
+ filter:drop-shadow(10px 10px 5px RGBA(0,0,0,0.75));
+}
+p{
+    width: 250px;
+    height: 300px; 
+    font-size: 30px; 
+    margin:0;
+}
+.border{border:2px solid blue}

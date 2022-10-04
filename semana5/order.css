@@ -1,0 +1,36 @@
+body{
+display: flex;
+justify-content: center;
+background-color: RGBA(0,0,0,0.75); 
+}
+
+.padre{
+width: 80%;
+height:700px;
+border: 2px solid blue; 
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+align-content: space-around;
+}
+
+.imagen{
+width: 250px;
+height: 300px;
+filter:drop-shadow(10px 10px 5px black);
+
+}
+p{ 
+width:250px;
+height: 300px;
+font-size: 30px;
+text-align: justify;
+margin: 0;
+}
+
+.uno{order:1}.dos{order: 2}
+.tres{order:3}.cuatro{order:4}
+.cinco{order:5}.seis{order:6}
+
+.rojo{color: red;}
